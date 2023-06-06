@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="loading...">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song-list">
+            <h1>Best Of NCS - No Copyright Sounds</h1>
+            <div class="song-item-container">
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">02:06 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">01:02 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">01:38 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">00:44 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">01:04 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">00:23 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1">
+                    <span class="songName">National Anthem</span>
+                    <span class="songlistplay"><span class="timestamp">00:32 <i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="song-info">
+            <img src="playing.gif" width="42px" alt="loading..." id="gif"> <span id="masterSongName">Raataan Lambiyan - Shershah</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/85e8684441.js" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
